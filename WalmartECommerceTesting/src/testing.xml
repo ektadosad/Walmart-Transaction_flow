@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My Test Suite" verbose="1">
+ <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+   </listeners>
+    <test name="Walmart Test" >
+   <classes>
+		<class name="test.MainTest" ></class>	
+	</classes>
+</test>
+</suite>
+   

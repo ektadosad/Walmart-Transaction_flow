@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Walmart Test"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="129.807">
+  <properties />
+  
+  
+            <testcase name="launchApplication" time="10.986" classname="test.MainTest" />
+                <testcase name="signOut" time="4.523" classname="test.MainTest" />
+                <testcase name="search" time="23.142" classname="test.MainTest" />
+                <testcase name="clickItem" time="14.163" classname="test.MainTest" />
+                <testcase name="addToCart" time="28.440" classname="test.MainTest" />
+                <testcase name="logIn" time="18.713" classname="test.MainTest" />
+                <testcase name="navigateToSignInPage" time="23.066" classname="test.MainTest" />
+                <testcase name="shutTheBrowser" time="1.331" classname="test.MainTest" />
+                <testcase name="validateCart" time="5.443" classname="test.MainTest" />
+      
+</testsuite>
